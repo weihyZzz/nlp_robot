@@ -1,7 +1,9 @@
-#导入库
+﻿#导入库
 from model.model import ChatBot
 import torch,warnings,argparse
 warnings.filterwarnings("ignore")
+
+# 王某对demo组件进行了一次开发
 
 #选择哪个模型 ，是否使用gpu
 parser = argparse.ArgumentParser()
