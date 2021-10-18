@@ -4,6 +4,7 @@ from model.model import *
 from model.pre_process import *
 import torch
 #读入数据
+print("############")
 dataClass = Corpus('./data/qingyun.tsv', maxSentenceWordsNum=25)
 #weihaoyang对train的第二次修改
 #指定模型和一些超参
